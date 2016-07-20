@@ -1,0 +1,39 @@
+<acceptance-test-run title="Open Udemy Login Form and Enter In User Data" name="testUdemyLogin" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17468" timestamp="2016-07-19T15:56:28.812+02:00">
+  <user-story id="com.udemy.test.UdemyTest" name="Udemy test" path="com.udemy.test"/>
+  <tags>
+    <tag name="Udemy test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12215">
+    <screenshots>
+      <screenshot image="fda06d077bc7f5aeb71cf49a775ac06a_NONE.png"/>
+    </screenshots>
+    <description>Go To www.Udemy.com</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1387">
+    <screenshots>
+      <screenshot image="cb9cab688fff7af04ffc9b6aecbba5d9_NONE.png"/>
+    </screenshots>
+    <description>Open Login Form</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1376">
+    <screenshots>
+      <screenshot image="d2a24eca3d8b49d8d65b3c7f0db845fb_NONE.png"/>
+      <screenshot image="3e79d54771dfb1cbe86a3b17ff11b4dd_NONE.png"/>
+    </screenshots>
+    <description>Entered Useranme: &lt;span class=&apos;step-parameter&apos;&gt;asd@pl&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1302">
+    <screenshots>
+      <screenshot image="d01820e35b4576a9ec760d2ec90404b0_NONE.png"/>
+      <screenshot image="1734eb21b10803f2acaa7a161a178ec9_NONE.png"/>
+    </screenshots>
+    <description>Entered Password: &lt;span class=&apos;step-parameter&apos;&gt;abc123&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1103">
+    <screenshots>
+      <screenshot image="c07d912d2d05ab7f07c3ff5c64bb5ae3_NONE.png"/>
+      <screenshot image="a0aa1d86b7e2034080417371be403a3c_NONE.png"/>
+    </screenshots>
+    <description>Click Login Button</description>
+  </test-step>
+</acceptance-test-run>
